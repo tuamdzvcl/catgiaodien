@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    max-width: 1338px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+img{
+    object-fit: cover;
+}
+.header{
+    border: 2px #000 solid;
+    padding-bottom: 35px;
+}
+.header h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header .nav{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+nav .formSeach{
+    padding-right: 100px;
+    font-size: 25px;
+}
+nav .formSeach input{
+    font-size: 16px;
+}
+nav .formSeach input:first-child{
+    font-size: 18px;
+}
+
+.nav li a{
+    font-size: 22px;
+}
